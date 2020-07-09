@@ -1,2 +1,45 @@
+<!--
+  1. text相当于web中的span标签 行内元素 不会换行
+  2. view相当于web中的div标签 块级元素 会换行
+  3. checkbox相当于以前的复选框标签
+-->
 <!--pages/demo03/demo03.wxml-->
-<text>pages/demo03/demo03.wxml</text>
+<!--
+<text>1</text>
+<text>2</text>
+<view>1</view>
+<view>2</view>
+-->
+
+
+<!--字符串-->
+<view>{{msg}}</view>
+
+<!--数字类型-->
+<view>{{num}}</view>
+
+<!--布尔类型-->
+<view>是否是女生？{{isGirl}}</view>
+
+<!--object标签-->
+<view>{{person.age}}</view>
+<view>{{person.height}}</view>
+<view>{{person.weight}}</view>
+<view>{{person.name}}</view>
+
+<!--在标签的属性中使用-->
+<view data-num = "{{num}}">
+  自定义属性
+</view>
+
+<!--使用bool类型充当属性 checked
+    字符串和花括号之间一定不要存在空格否则会导致识别失败
+    以下写法就是错误的示范
+    <checkbox checked="    {{isChecked}}"> </checkbox>
+-->
+<view>
+  <checkbox checked = "{{isChecked}}"></checkbox>
+</view>
+  
+
+  
