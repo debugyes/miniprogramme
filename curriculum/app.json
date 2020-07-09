@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/seach"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#7280C8",
+    "navigationBarTitleText": "课程表",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#F1F3F3"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "icon/_my.png",
+      "selectedIconPath": "icon/my.png"
+      },
+      {
+        "pagePath": "pages/search/seach",
+        "text": "查询课表",
+        "iconPath": "icon/_search.png",
+        "selectedIconPath": "icon/search.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#7280C8"
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
