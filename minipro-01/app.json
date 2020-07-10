@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/demo04/demo04",
-    "pages/demo03/demo03",
+    
+    "pages/demo03/demo03","pages/demo04/demo04",
     "pages/index/index",
     "pages/img/img",
     "pages/mine/mine",

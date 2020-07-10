@@ -38,7 +38,7 @@
     <checkbox checked="    {{isChecked}}"> </checkbox>
 -->
 <view>
-  <checkbox checked = "{{isChecked}}"></checkbox>
+  <checkbox checked="{{isChecked}}"></checkbox>
 </view>
 
 <!--
@@ -135,7 +135,7 @@ block
         hidden 属性不要和样式display一起使用
 -->
 
-<view>
+<view>  
   <view>条件渲染</view>
   <view wx:if="{{true}}">显示</view>
   <view wx:if="{{false}}">隐藏</view>
