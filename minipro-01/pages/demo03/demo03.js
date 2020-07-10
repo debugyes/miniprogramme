@@ -10,6 +10,20 @@ Page({
       weight: 200,
       name: "giao"
     },
-    isChecked: false
+    isChecked: false,
+    list:[
+      {
+        id:0,
+        name: "猪八戒"
+      },
+      {
+        id:1,
+        name: "猪七戒"
+      },
+      {
+        id:1,
+        name: "猪六戒"
+      }
+    ]
   }
 })
